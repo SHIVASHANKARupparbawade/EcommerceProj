@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRMPRO session">
+	<listeners>
+		<listener class-name="com.ExtentReports.ExtentReportListener"/>
+	</listeners>
+    <test name="CRMPRO">
+        <classes>
+            
+            <class name="com.CrmProTest.qa.Test.LoginPageTest"/>
+            <class name="com.CrmProTest.qa.Test.HomePageTest"/>
+            
+        </classes>
+    </test>
+	
+</suite>

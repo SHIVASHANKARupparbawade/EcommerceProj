@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPRO session]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CRMPRO(failed)">
+    <classes>
+      <class name="com.CrmProTest.qa.Test.HomePageTest">
+        <methods>
+          <include name="verifyclickoncontacts"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="verifyhomelabel"/>
+        </methods>
+      </class> <!-- com.CrmProTest.qa.Test.HomePageTest -->
+    </classes>
+  </test> <!-- CRMPRO(failed) -->
+</suite> <!-- Failed suite [CRMPRO session] -->
